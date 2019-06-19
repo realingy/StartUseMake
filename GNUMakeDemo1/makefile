@@ -16,4 +16,4 @@ test3.o : test3.cpp global.h
 
 .PHONY : clean
 clean:
-	-rm test main.o test1.o test2.o test3.o
+	rm test main.o test1.o test2.o test3.o
